@@ -584,6 +584,33 @@ class Test {
 	mgr.disMgr();
 
 
+	Polymorphism :  One name many forms. 
+		one name many implementation 
+
+	2 types 
+
+	Compile time 				Run time 
+
+	Static binding 				Dynamic binding 
+	
+	Early binding 				Late binding 
+
+	
+
+	Method overloading 				Method Overriding 
+
+	Method Overloading : the method have same name but different parameter list 
+	(Number of parameter list as well as type of parameter list must be different).
+	
+	
+	
+
+	
+
+
+
+
+
 
 
 	
