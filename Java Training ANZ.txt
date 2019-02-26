@@ -495,28 +495,93 @@ class Test {
 	Encapsulation : Binding or Wrapping data(variables) and code(methods) in a single 
 	unit is known as Encapsulation. 
 
+	Ex: class 
+
+	Inheritance : Inheritance is to inherits or acquire the properties and behaviour 
+	of old class to new class. 
 	
+	class OldClass {		super class, base class, parent class 
+		properties 
+		behaviour 
+	}
 
-	
+	class NewClass extends OldClass{ sub class, derived class or child class 
+		properties 
+		behaviour 
+	}	
 
 
+	Types of Inheritance 
 
-	
+	1. Single Inheritance :One super and one sub class 
+	class A {}
+	class B extends A {}
+	2. Multilevel Inheritane : One super class and n number of sub class connected one 
+	by one 
+	class A {}
+	class B extends A{}
+	class C extends B {}
+	class D extends C {}
+	3. Hierarchical Inheritance : One super class and n number sub classes connected directly 
+	class A{}
+	class B extends A{}
+	class C extneds A{}
+	class D extends A{}
+	4.Multiple Inheritance : More than one super class and only one sub class 
+	class A{}
+	class B {}
+	class C extends A,B{}			Wrong in Java 		
+	This type of inheritance java support using interface. 	
 
+
+	OOPs Relationship 
+
+	1.	Manager  is a Employee  
+	2. 	Employee has a Address  
+
+	class Employee{
+		id,name,salary	simple property 	
+		Address add;	complext property 
+	}
+	class Manager extends Employee {
+
+	}
+	class Tester extends Employee{
+
+	}
+	class Address{
+		city,state
+		Location loc
+	}
+	class Location {
 		
+	}
 
 
+	Employee ---->
 
+		id,name,salary ---->  instance variables 
+		 Scanner obj
+		read() {	
+			id,name,salary through keyboards 			
+		}
+		calSalary() {}	hra, da and pf 
+		display() 	
+	Manager extends Employee		
+		numberOfEmp
+		readMgr() {
+			
+		}
+		disMgr() {
 
-
-
-
-
-
-	
-
-
-
+		}
+	EmployeeTest 
+	Manager mgr = new Manager();
+	mgr.read();
+	mgr.readMgr();
+	mgr.calSalary();
+	mgr.dispaly();
+	mgr.disMgr();
 
 
 
