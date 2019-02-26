@@ -14,16 +14,15 @@ class Employee {
 		System.out.println("Employee name is "+name);
 		System.out.println("Employee salary is "+salary);
 	}
-	
 }
 class EmployeeTest {
 	public static void main(String args[]){
 	Employee emp1 = new Employee();
-				emp1.display();
+		emp1.display();
 		emp1.id=100;
 		emp1.name ="Raj";
 		emp1.salary = 12000;
 		emp1.calSalary();
-	emp1.display();
+		emp1.display();
 	}
 }
