@@ -1,0 +1,485 @@
+25-02-2019
+
+	Day 1 :
+	
+	C : 	
+		Basic Procudure Language 
+
+		OOPs 
+
+
+		void abc() {
+			xyz();	
+		}
+		void xyz() {
+			mno();
+		}
+		void mno() {
+
+		}
+		void main() {
+			abc();	
+		}
+	C++
+
+	C#
+
+	
+
+	Java : Object Oriented Programming Language. 
+
+	object : any real world entity 
+		state (properties)--->have ---->variables /fields 
+	person 
+		behaviour ------>do/does ---->function / methods 
+	bank 
+	animal 
+	car 
+
+	class : blue print of object or template of object. 	
+
+
+
+	C
+
+			C+OOPs = C++
+
+
+
+	
+	Java				.net 
+
+	Core Java				C# 
+	
+	Java is a pure object platform independent programming language. 
+
+	Version java : 
+
+	1.0				java 8, java9, 	java 11
+
+
+	
+	class syntax 
+
+	class className {
+		variable declaration;
+		method declaration;
+	}
+
+	Pascal Naming rule 
+
+	class Test {		
+
+		public static void main(String args[]) {
+			System.out.println();
+		}	
+	}
+
+
+	JDK: Java Development Kit  
+	JRE : Java Run environment 
+
+
+
+	javac : Java compiler 
+
+	javac className/fileName.java 		javac Test.java 
+
+	java : Java interpreter 
+
+	java className
+
+	
+	Data Types : 
+	
+	Data type is type of data which tells what type of data it can hold. 
+
+	types of Data types 
+	
+	1. primitive data type : It is use to store only value.
+
+		8 types 
+
+	a. byte 1 byte
+	b. short 2 byte			without decimal point 10,  200, 
+	c. int     4 byte 
+	d. long   8 byte 
+	
+	e. float  4 byte 		with decimal points, 10.20, 
+	f. double 8 byte 
+	
+	g. char 2 byte 		any single character 'a', '1' , '$', 
+	h. boolean 	1 bit 	true or false.
+
+class Test {
+	public static void main(String args[]) {
+	int a;
+	int b=10;
+	double d = 10.10;
+	char c = '$';
+	boolean res = true;
+	System.out.println(b);
+	System.out.println(res);
+	System.out.println(c);
+	}
+}
+
+	Operators : 
+
+	1. Arithmetic Operator : +, - , *, /, % 
+	2. Logical operator : &&, || , !
+	3. Conditional operator : 
+	>
+	>=
+	<
+	<=
+	==
+	!=
+
+	4. assignment operator = 
+	int a =10; 
+	
+	5. increment and decrement operator 
+
+	++ 
+			int a=10;
+			a++;	or    a = a+1;
+	-- 	
+			a--	or    a= a-1;
+
+	
+	if statements 
+
+	1. simple if 
+		
+		if(condition) {
+
+		}
+		
+	2. if else 
+
+		if(codintion) {
+			true block 
+		}else {
+			false block 
+		}	
+	3. nested if 
+
+		if(condition) {
+			
+			if(condition) {
+				
+			}else {
+				
+			}
+		
+		}else {
+			if(codition) {
+
+			}
+		}
+
+	4. if else if or if ladder 
+
+	if(codition) {
+
+	}else if(condition) {
+
+	}else if(condition) {
+
+	}else {
+		
+	}
+		
+		switch statement :
+	int a=5;
+	switch(a){	//type of variable must int family, char, String
+
+		case 1:block1;
+			break;
+		case 2:block2;
+			break;
+		case 3:block3;
+			break;
+		default:defaultblock;
+			break;
+	}	
+		
+	Looping statements : 
+
+	It is use to execute set of statements again and again till coditions becomes false. 
+
+	types of loop 
+	
+	1. while loop		initialization , start and end , i=1,n=10
+	2. do while loop 		i<=n	or 	i>=n
+	3. for loop 			do the task 
+					
+				i++	or n--
+				
+
+		
+
+	for(initialization;condition;increment/decrement){
+
+	}
+                           1            2	4
+	for(int i=0,n=10;i<=n;i++){
+		System.out.println(i);		3
+	}
+
+
+
+	4. for each loop or enhanced loop 
+
+
+
+	2. non primitive data type or reference data type: It is use to store value as well as 
+	reference of another data types. 
+
+	4 types 
+
+	array :
+	class :(pre-defined or user-defined)
+	interface :(pre-defined or user-defined)
+	enum :(pre-defined or user-defined)
+
+	array : array is use to store the n number of elements of the same data types. 
+
+	int a=10;
+
+	
+	a=20;
+
+	a=30;
+
+	syntax 
+
+	dataType arrayName[];
+
+	int []abc;				int [10]abc; C/C++ 
+	int a;
+
+	int abc[]={10,20,30,40,50,60};
+
+	System.out.println(abc[0]);	
+
+		
+
+	for each loop 
+
+	syntax 
+
+	for(initialization;condition;increment/decrement){
+
+	}
+
+	for(i=0;i<=10;i++){
+		System.out.println("Hello");
+	}
+	
+	int abc[]={10,20,30};
+
+	for(dataType variableName:arrayName){
+
+	}
+
+	for(int a:abc){
+		System.out.println(a);
+	}
+
+
+	class Test {
+	public static void main(String args[]) {
+	int []abc={10,20,30,40,50,60,234,56,778,22,33,56,89};
+	int a=10;
+	System.out.println(abc[0]);
+	System.out.println(abc[2]);
+	System.out.println("Size of the array is "+abc.length);
+	System.out.println("using for loop");
+	for(int i=2;i<6;i=i+2) {
+		System.out.println(abc[i]);
+	}
+	System.out.println("Using loop each loop");
+	for(int n:abc) {
+		System.out.println(n);
+	}
+	}
+}
+
+	Creating the memory size for the array 
+
+	int abc[]=new int[size];		in java
+	
+	int abc[]=new int[10];
+
+	
+	
+	int abc[10];			in C/C++
+
+	printf("%d",abc[0])	
+
+	Taking the value through keyboards 
+
+	1. Using Scanner class 	util package 
+	2. BufferedReader 		io package 
+	3. DataInputStream 		io package 
+
+	
+	Scanner is a pre-defined class which provide set of methods which help to scan the value 
+	through keyboards. 
+
+	
+	Syntax 
+
+	Scanner obj = new Scanner(System.in);
+
+	package : package is a collection of classes and interfaces. 
+
+	lang package 
+
+
+	8 data types 
+
+	nextByte();
+	nextShort();
+	nextInt();
+	nextLong();
+	
+	nextFloat();
+	nextDouble() 
+	
+	nextBoolean()
+
+	
+	char name='b';
+
+	char name[]=new char[10];
+	name[0]='R';
+	name[1]='a';
+	name[2]='j'
+
+	String name="Raj";
+
+	String name="Ajay Kumar";
+
+	String fname = obj.next();
+
+26-Feb-2019
+
+	object and class :
+
+	
+	object : any real world entity 
+		properties ---.have
+	person 
+		behaviour ----do/does 
+	bank 
+	animal 
+	car 
+
+		etc 
+
+	class : blue print of the object or template of the object. 
+	int a;
+	
+	int abc[10];
+	
+	int abc[]=new int[10];
+
+	structure :
+
+	class :
+
+	class className {
+		variable declaration;
+		method declaration;
+	}		
+
+
+	method syntax 
+
+	returnType methodName(parameterList) {
+	
+		method body;
+	}
+
+	void display() {		// no passing parameter and no return type 
+		System.out.println("Welcome");
+	}
+
+
+	display();	//calling method 
+
+	void add(int x, int y) {		//passing two parameter but no return type 
+		int sum = x+y;
+		System.out.println("Sum is"+sum);
+	}
+
+	add(10,20);	//passing two values 
+	
+	String sayHello(String name){
+		//coding 
+		return "Welcome to My Application "+name;
+	}
+
+	char getCode() {
+
+		char a='$';
+
+		return a;
+	}
+	
+
+
+	employee 
+	car 
+	person 
+
+	types of variables or fields 
+
+	3 types of variables 
+
+	1. Instance variable 
+	2. local variable 
+	3. static variable
+
+	Instance variable : 
+	1.The variable which declare inside a class but outside method is known as instance 
+	variable. 
+	2. Instance variable hold default value according to their data types. 
+	int family -->0
+	float family -->0.0
+	char -->white space 
+	boolean --> false
+	String -->null
+	3. Instance variable we can access directly inside method within a same class but method 
+	must be non static. 
+
+	Local variable 
+	1. The variable which delcare inside a method (method must be inside a class only)
+	is known as local variable. 
+	2. local variable doesn't hold defualt value we have to initialize. 
+	3. The scope of the local variable within same method where it declare. 
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
