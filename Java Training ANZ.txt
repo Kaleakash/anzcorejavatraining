@@ -487,8 +487,17 @@ class Test {
 	that type of code write inside a methods. 
 
 	
+	PIEA 
+
+	
+	OOPs Properties 
+
+	Encapsulation : Binding or Wrapping data(variables) and code(methods) in a single 
+	unit is known as Encapsulation. 
+
 	
 
+	
 
 
 
