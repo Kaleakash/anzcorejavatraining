@@ -2,7 +2,7 @@ class Employee {
 	int id;
 	String name;
 	double salary;
-	void setValue() {
+	void setValue() {			//fixed value for all employee 
 		id=100;
 		name="Raj";
 		salary =12000;
@@ -12,7 +12,7 @@ class Employee {
 		name=name1;
 		salary = salary1;
 	}*/
-	void setEmpInfo(int id,String name, float salary) {
+	void setEmpInfo(int id,String name, float salary) {	// passing emp info from main class 
 		this.id =id;
 		this.name = name;
 		this.salary = salary;

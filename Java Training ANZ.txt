@@ -466,8 +466,23 @@ class Test {
 
 		
 	
+	When local variable and instance variable have the same name that time local
+	variable hide the visibility of the instance variable. 
+	
+	this: this is keyword which is use to refer the current object. 
+
+		this.instancevariable = localvariable;
+
+		
+	constructor : constructor is a type of special method which is use to create the object. 
+	
+	Points 
+	1. construtor have same name as class itself. 
+	2. constructor no return type not even void also. 
+	3. constructor no need to call it will call automatically when we create the object. 
 
 
+	
 
 
 
