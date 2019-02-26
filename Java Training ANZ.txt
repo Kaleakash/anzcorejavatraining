@@ -603,9 +603,73 @@ class Test {
 	(Number of parameter list as well as type of parameter list must be different).
 	
 	
+	void readInfo() {
+		
+	}
+
+	void process() {
+
+	}
+	void display() {
 	
+	}	
+
+
+	void area(int r) {
+
+	}
+	void area(int l, int b) {
+
+	}
+
+	void add(int x, int y){
+
+	}
+	void add(int x, int y, int z){
+
+	}
+	void add(String s1, String s2) {
+
+	}
+
+	Method Overriding :The method have same name and same method signature 
+	(number of parameter list, type of parameter list as well as return type must be same).
 
 	
+	Annotation : meta-data :data about data. 
+
+	int a;
+
+	@ followed by annotation name 
+
+	abstract , final and static keywords 
+
+	
+	abstract keyword :
+
+	1. abstract is keyword we can use with method and class but not with variables.
+	2. abstract methods:
+	syntax 
+	abstract returnType methodName(parameterList);
+	abstract void speed();
+	The method without body or without curly braces or incomplete method. 
+3. If class contains any abstract method then we have to declare the class as a abstract class
+	abstract class className {
+
+	}
+	4. Whichever class extends abstract class that class must be provide the body for 
+	all abstract method mandatory it can ignore only if that class itself is abstract class. 
+	5. Abstract class we can't create the object. 
+	6. Abstract class can contains normal as well as abstract methods. 
+	ie Zero, 1 or all 
+	7. Inside abstract class we can write empty as well as parameterized constructor. 
+	
+
+`
+		
+
+	
+
 
 
 
