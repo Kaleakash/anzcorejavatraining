@@ -480,8 +480,13 @@ class Test {
 	1. construtor have same name as class itself. 
 	2. constructor no return type not even void also. 
 	3. constructor no need to call it will call automatically when we create the object. 
+	
+	In the life of the object if we want to perform any task only one time that type of 
+	code write inside as constructor (may be empty or parameter)
+	But in the life of the object if we wan to perform any task more than one time 
+	that type of code write inside a methods. 
 
-
+	
 	
 
 
