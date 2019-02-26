@@ -665,13 +665,51 @@ class Test {
 	7. Inside abstract class we can write empty as well as parameterized constructor. 
 	
 
-`
-		
+	final keyword : 
+
+	final keyword we can use with variable, method and class. 
+
+	1. final variable : To declare a constant value we use final keyword with variable. 
+
+	final int A=10;
+
+	2. final method : Final method can't override.
+
+	3. final class : final class we can't extends. 
+
+	static keyword : 
+	
+	1. static keyword we can use with variable and method but not with class. 
+		(inner class can be static as well as non static)
+	inner class 
+
+	class Outer {
+		static int a;
+		static void dis() {
+
+		}
+		static class Inner {
+
+		}
+
+	}	
+
+	2. For static variable we can assign the value through class name as well as object name
+
+	ClassName.staticVariableName =value;
+	objectName.staticvariableName = value;
+
+	3. Static method we can call with the help of className as well as object. 
+
+	className.staticMethodName();
+	objectName.staticMethodName();
+	4. Inside a static method we can access only static variable directly of the same class.
+
 
 	
 
 
-
+	
 
 
 
