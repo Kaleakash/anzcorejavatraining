@@ -653,7 +653,7 @@ class Test {
 	abstract returnType methodName(parameterList);
 	abstract void speed();
 	The method without body or without curly braces or incomplete method. 
-3. If class contains any abstract method then we have to declare the class as a abstract class
+	3. If class contains any abstract method then we have to declare the class as a abstract class
 	abstract class className {
 
 	}
@@ -706,10 +706,177 @@ class Test {
 	4. Inside a static method we can access only static variable directly of the same class.
 
 
+		
+
+	has a 
+
+	1. Association 
+	2. Aggregation 
+	3. Composition 
+	
+	class A {
+		B obj1 = new B();	//0, 1, many 
+	}
+	
+	class B {
+		A obj2 = new A();	//0, 1, many 
+	}
+
+	class Employee {
+		Address ladd = new Address();
+		Address padd = new Address();	//0, 1, many 
+	}
+
+	class Address {
+
+	}
+
+	class Student {
+		StudentHistroy sh = new StudentHistroy();
+	}
+	class StudentHistroy {
+
+	}
+
+	interface : interface is type of reference data type. it is also known as 100% pure abstract class. 
+
+	syntax 
+
+	interface interfaceName {
+		variables;
+		methods;
+	}
+
+	By default all variables are public static and final. 
+	By default all methods are public and abstract 
+	
+	interface Abc {
+		//public static final int A=10;
+		static final int A=10;
+		final int A=10;
+		int A=10;
+		//public abstract void dis();
+		//abstract void dis();
+		void dis();
+	}
+
+					till java 7, java 8 default or static keyword 
+	interface Abc {
+		int A=10;
+		void dis1();
+	}
+	interface Xyz {
+		int B=20;
+		void dis2();
+	}
+	
+	interface Mno extends Abc,Xyz{
+		int C=30;
+		void dis3();
+	}	
+	
+	class Demo implements Abc,Xyz {
+			
+	}
+	
+From java8 interface can contains method with body but we have to use default or static keyword with methods. 
+
+
+	super					sub 
+
+	
+	public 					public 
+
+
+	protected 					public 
+						protected 
+
+	default 					public 
+						protected 
+						default 
+
+	private 					we can't override 
+
+
+
+	package :  package is a collection of classes and interfaces. 
+
+	two types of packages 
+	
+	1. user-defined package 
+	2. pre-defined package or built-in package 
+
+	Date :	util 
+
+	Date :	sql 
+
+				java 
+
+		util			sql
+
+
+		Date			Date 			
+
+				Education 
+
+
+	School			College			pg 
+
+	Attendance 		Attendance		Attendance
+
+
+	package is like folder or diretory. 
+
+	It is use to avoid the conflicts when two classes and interface which have same name but different purpose. 
+
+	syntax 
+
+	package packageName;
+
+	package com;		or 		package com.education.school;
+	class PackageDemo {
+		public static void main(String args[]) {	
+			System.out.println("Welcome to User-defined package");
+		}
+	}
+
+	compile package program 
+
+	javac -d . packageDemo.java 
+
+
+	java com.PackageDemo 
+
+
+	Access Specifiers 
+
+	public : instance variable, static variable, non static method, static method, constructor and class 
+		but not with local variable. 
+	protected :
+		instance variable, static variable, non static method, static method, constructor  
+		but not with local variable as well as class. 
+	default :	all 
+	private :	instance variable, static variable, non static method, static method, constructor  
+		but not with local variable as well as class. 
+
+
+
+	
 	
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
