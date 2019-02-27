@@ -860,25 +860,115 @@ From java8 interface can contains method with body but we have to use default or
 		but not with local variable as well as class. 
 
 
+	private : within same class we can access. 
+
+	default : within same package 
+
+	protected : within same package other package if it is a sub class. 
+
+	public : same package as well as other package. 
 
 	
+	package pack1;
+
+	public class A {
+		public int a;
+		protected int b;
+		int c
+		private int d;
+		void dis() {
+			a,b,c,d
+		}
+	}
+	public class Demo {
+		public static void main(String args[]) {
+		A obj1= new A();
+		obj1.dis();
+			obj1.a, obj1.b, obj1.c, //obj1.d private variable 
+		}
+	}
 	
+	package pack2;
+	import pack1.A;
+	public class B {
+		void dis3() {
+		A obj1 = new A();
+		obj1.a, 	
+		}	
+	}
+	
+	package pack2;
+	//import pack1.*;
+	import pack1.A
+	public class C extends A {
+		void dis2() {
+			a, b, 	
+		}
+	}
+	
+		
+			pre-defined package 
+			
+
+		API : application programming interface 
+		
+
+		java				javax ----------------> Root package 
+
+		lang 				swing 
+
+		io 				servlet 
+
+		util 				ejb 
+
+						jms  
+		sql 	
+
+		awt 				net 
+
+		net 
+		
+
+		lang package :	By default every java program imported lang package. 
+		
+
+			By default every java (pre-defined or user-defined )program extends Object class. 
+
+			Object is a pre-defined class part of lang package. 
+
+		lang package. 		
+		
+		Exception Handling classes 
+
+		
+		Exception 
+		Error 
+		ArithmeticException 		etc 
+
+
+				Multithreading classes 
+		Thread 
+		Runnable 
+
+		Object 
+		String 
+		StringBuffer 
+		StringBuilder 
+
+
+		Exception Handling 
+
+		Exception : exception is a pre-defined object it will generate when unexpected or abnormal
+		condition during the exeption of a programs. 
+
+										
+
+		
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+	
 
 
 
