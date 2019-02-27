@@ -961,7 +961,176 @@ From java8 interface can contains method with body but we have to use default or
 		Exception : exception is a pre-defined object it will generate when unexpected or abnormal
 		condition during the exeption of a programs. 
 
-										
+					
+				Java 
+
+
+	compile program 						run program 
+
+	javac : java compiler 						java: java interpreter 
+
+	compile time error 						run time error 
+
+	syntax error or 
+	typing error 	
+	
+
+				run time error 
+
+
+			Error 			Exception 
+
+
+		Error as well as Exception both are pre-defined class part of lang package.
+
+		Error : The error which generate at the run time which we can't handle it is known as 
+		Error 
+
+			JVM crash 
+			Software or Hardware issue 
+
+		Exeption : It is type of error which generate at the run time which we can handle it 
+		
+		ArithmeticException : 
+
+
+				Exception 
+
+		Checked Exception 			UncheckedException 
+
+		
+						RuntimeException ---> pre-defined class 
+							
+							extends 
+
+		IOException			ArthmeticException 
+		SQLException 			NumberFormatException 
+						ArrayIndexOutOfBoundsExeption 
+
+		etc				etc 
+
+	
+		5 keywords is use to handle checked as well as unchecked exception 
+
+		try 	
+		catch 
+
+		
+		finally 
+		throw 
+		throws 
+
+
+		try {
+
+
+		}catch(Exception e) {
+
+		}		
+
+
+		try with multiple catch block 
+
+
+		try {
+			file open read/write 
+			operation 
+			
+
+		}catch(Exception e){
+			
+		}finally {
+			close the file 
+		}
+
+
+
+		finally : finally block execute 100% sure if exception generated or not.
+
+		finally block is use to close the resoures properly. 
+
+		throws :
+		throws keyword is use to throw the exception to caller methods. 
+
+	
+		throw : throw keyword is use to generate or raise pre-defined or user-defined exception 
+		depends upon the conditions. 
+
+		
+
+		syntax 
+
+		throw new Exception();
+
+			or 
+
+		throw new ExceptionSubClass();
+
+
+		String, String Buffer, Math, Random, System, Runtime class 
+
+		String is pre-defined class part of lang package.
+
+		String s1 = "Raj";		//string literal 
+		String s2 = new String("Raj");	//using new keyword 
+
+
+		String is known as immutable class. can't change the value. 
+
+		Math :Math class is use to do mathmetical operations. 
+
+	Math class contains all fields and methods are static. 
+
+			
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								
 
 		
 

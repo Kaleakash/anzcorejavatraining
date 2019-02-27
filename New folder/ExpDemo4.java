@@ -1,9 +1,15 @@
 class ExpDemo4 {
-	public static void main(String args[]) throws Exception {
-		System.out.println("Hi");
-			//try{
-			Thread.sleep(3000);
-			//}catch(Exception e){}
-		System.out.println("Take Lunch break");
+	public static void main(String args[])  {
+		int a=10;
+		int b=5;
+		try{
+			//new ArithmeticException()		
+			if(a>b) {
+				throw new Exception();
+			}
+
+		}catch(Exception e){
+			System.out.println(e.toString());
+		}
 	}
 }
