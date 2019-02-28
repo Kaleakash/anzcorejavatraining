@@ -2,6 +2,8 @@ package com;
 
 import java.io.IOException;
 import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class StringDemo {
 
@@ -41,7 +43,7 @@ System.out.println(s2.toUpperCase());*/
 	/*	Random rr =new Random();
 						int val = (int)rr.nextInt(10);
 						System.out.println(val);*/
-						
+					
 						Runtime rr = Runtime.getRuntime();
 						try {
 								Process pr =  rr.exec("mspaint");

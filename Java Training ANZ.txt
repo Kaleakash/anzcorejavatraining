@@ -1083,6 +1083,87 @@ From java8 interface can contains method with body but we have to use default or
 
 			
 
+	Day 4 : 28-02-2019
+
+	IO package : File handling 
+
+
+	#include<stdio.h>
+
+	#include<stream.h>
+
+	
+	Stream :	Flow of data or It is abstraction between source and target. 
+
+
+
+	Source --> Keyboard, File, Network, database etc 
+	
+	Target --> Console, File, Network,database etc 
+
+					Stream 
+
+		byte						char 
+
+
+Input 			Output				Input 		Output 
+
+DataInputStream 	DataOutputStream			InputStreamReader		OutputStreamWriter 
+BufferedInputStream BufferedOutputStream		BufferedReader		BufferedWriter 
+FileInputSteam	FileOutputStream			FileReader		FileWriter 
+ObjectInputStream	ObjectOutputStream			
+		PrintStream						PrintWriter 
+
+		System.in
+		System.out.println()
+
+	
+		InputStream is = System.in;
+		InputStream class refer to standard input device ie keyboard 
+		
+		PrintStream ps = System.out;
+		PrintStream class refers to standard output device ie console. 
+
+		
+		class Employee {
+			static int a=10;
+			static Address add = new Address();
+		}
+
+
+			
+				int abc = Employee.a;
+				Address obj=Employee.add;
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 		
 
 
