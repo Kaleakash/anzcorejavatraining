@@ -1117,6 +1117,9 @@ ObjectInputStream	ObjectOutputStream
 		System.in
 		System.out.println()
 
+
+java -jar C:\Program Files\Java\jdk1.8.0_91\db\lib\derbyrun.jar ij
+
 	
 		InputStream is = System.in;
 		InputStream class refer to standard input device ie keyboard 
@@ -1134,6 +1137,148 @@ ObjectInputStream	ObjectOutputStream
 			
 				int abc = Employee.a;
 				Address obj=Employee.add;
+
+
+
+
+		Source --->Keyboard,  
+
+		Target ---> Console, 
+
+
+		Wrapper classes :
+
+		Primitive Data types 			Wrapper classes 
+
+		byte				Byte 
+		short				Short 
+		int				Integer 
+		long				Long 
+
+		float 				Float
+
+		double				Double
+
+		char				Character
+
+		boolean				Boolean 
+
+
+		1. Converting one data type to another data types. (type casting )
+
+		int num = Integer.parseInt(dis.readLine());
+
+		
+
+
+		Buffer : Buffer is temporary memory which help to improve the read and write 
+		operation. 
+
+		 
+	Object Serialization : Storing the object state into external file or converting object into byte format is 
+	known as Object Serialization. 
+
+	Every object hold three information 
+
+	Property 	: variables 
+	behaviour : methods
+	identity : reference or name for the object.
+
+	
+		
+		Collection Framework (Data Structure) 
+
+		Collection framework contains set of classes and interfaces which help to store 
+	collection of object or elements. It provided set of methods which help to read, write, remove,search 
+	the object very easily.	 
+
+	int a;
+
+	a=10
+
+	a=20;
+
+	int abc[];	
+
+
+	structure : C/++
+
+	class Employee {
+		int id
+		String name;		
+		float salary;
+	}
+	
+	Emloyee emp = new Employee();
+	emp.id=100;
+	emp.name="Raj";
+	emp.salary=12000;
+
+	emp.id=101;
+	
+	
+	Array objects 
+	int n = sc.nextInt();
+	
+	Employee emp1[]=new Employee[100];
+
+		
+		emp1[0]=new Employee();
+		emp1[0].id=100;
+		emp1[0].name="Ravi";
+		emp1[0].salary=12000;
+		emp1[0].display();
+
+
+		emp1[1]=new Employee();
+		emp1[1].id=101;
+		emp1[1].name="Ramesh";
+		emp1[1].salary=14000;
+		emp1[1].display();
+
+
+
+
+	int abc[]=new int[100];
+
+
+
+
+
+
+
+
+		java.util.*;
+	
+		javap java.packageName.className/interfaceName 
+
+		javap java.util.Collection
+		
+
+				Collection ------> interface 
+
+		extends 			extends 		doesn't extends 
+
+	Set 			List 				Map ----> interfaces 
+
+It doesn't allow 			It allow				Key - value pairs 
+duplicate records.			duplicate. 				key is unique 
+Some element in set 			It maintain the 			value may be duplicate 
+are order, unorder and 		order using 
+sorted.				index position 
+
+
+
+HashSet 				Stack 				HashMap 
+
+LinkedHashSet			ArrayList 				LinkedHashMap 
+
+TreeSet 				LinkedList 			TreeMap
+
+				Vector 				Hashtable 
+
+	
+
 
 
 
