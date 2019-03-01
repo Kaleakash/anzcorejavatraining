@@ -1254,7 +1254,6 @@ java -jar C:\Program Files\Java\jdk1.8.0_91\db\lib\derbyrun.jar ij
 
 		javap java.util.Collection
 		
-
 				Collection ------> interface 
 
 		extends 			extends 		doesn't extends 
@@ -1278,6 +1277,177 @@ TreeSet 				LinkedList 			TreeMap
 				Vector 				Hashtable 
 
 	
+
+01-March-2019			Day 5 
+
+
+
+	Generics with Collection framework 
+
+	Generic is use to store the safe type of data or object in collection framework. 
+
+	9900103077
+
+	
+
+	JDBC : Java Database Connectivity : 
+
+	JDBC is a API (Application programming interfaces) which provide set of classes and interfaces 
+	which help to connect and do CRUD operation on RDBMS through java programs. 
+
+	DMBS :Database Management System :
+
+	1, Raj, 120000
+	1/Raj/12000
+
+	1$Raj$120000
+
+	Dr EF codd's rules 
+
+	12 rules 
+
+		
+	RDBMS :Relational Database Management System. 
+
+		My SQL 
+
+				Oracle 
+
+				SQL Server
+
+			Derby 
+
+
+		Employee Table 
+
+		Id	Name	Salary 
+
+		
+
+
+
+		Connect Database 
+
+		My SQL
+
+		Oracle 
+
+		SQL Server 
+
+		Derby 
+
+creater query :	create table employee(id int primary key,name varchar(10), salary decimal);
+
+Insert query :	insert into employee values(1,'Raj',12000);
+
+select query :	select * from employee 
+
+updaet query : 	update employee set salary = 16000 where id =1
+
+delete query :	delete from employee where name ='Ravi'
+
+
+
+	using command run the ij file 
+
+	to connect the database 
+
+	connect 'jdbc:derby:databaseName;create=true';		this command create the new database 
+
+
+	connect 'jdbc:derby:databaseName'		this command connect existing database. 
+
+	show tables : This command is use to display the pre-defined as well as user-defined tables present in that 
+	
+			database. 
+
+	
+
+	Steps to connect the database through Java using JDBC 
+
+	1. import java.sql.*; packages 
+
+	2. Write user-defined or pre-defined main method with exception handling using try-catch or throws. 
+
+	3. Load the Driver : Driver is pre-defined class provided by database vendor in the form of jar file 
+	which help to connect the database. 
+
+		Class.forName("DriverName");
+
+
+	4. Establish the connection :
+
+	Connection con = DriverManager.getConnection(url,userName,password);
+
+	
+	DriverManager is pre-defined class which provide static method with name getConnection()
+	which help to connect the database and return type of that method is Connection interface reference. 
+
+
+	5. Create the type of Statement :
+
+	Statement or PreparedStatement interfaces provide set of methods which help to store, retrieve,update and delete records from database. 
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

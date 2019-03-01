@@ -1,0 +1,24 @@
+Oracle 
+
+Driver --- oracle.jdbc.driver.OracleDriver
+URL --- jdbc:oracle:thin:@localhost:1521/XE
+ 
+My SQL 
+
+Driver  --- com.mysql.jdbc.Driver
+URL    --- jdbc:mysql://localhost:3306/test
+
+SQL Server 
+
+Driver ----com.microsoft.sqlserver.jdbc.SQLServerDriver
+url----jdbc:sqlserver://localhost:1433;databaseName=company
+
+Derby Database 
+
+Driver ---- org.apache.derby.jdbc.ClientDriver
+url ---jdbc:derby://localhost:1527/mydb
+
+MS Access 
+
+Driver --- net.ucanaccess.jdbc.UcanaccessDriver
+URL   --- jdbc:ucanaccess://D:/demo.accdb
