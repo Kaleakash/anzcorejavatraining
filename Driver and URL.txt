@@ -15,7 +15,7 @@ url----jdbc:sqlserver://localhost:1433;databaseName=company
 
 Derby Database 
 
-Driver ---- org.apache.derby.jdbc.ClientDriver
+Driver ---- 		org.apache.derby.jdbc.ClientDriver
 url ---jdbc:derby://localhost:1527/mydb
 
 MS Access 

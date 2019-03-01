@@ -27,3 +27,60 @@ class GenericCollection {
 }
 
 
+
+		CollectionWithEmployee		CRUD : Create, Read, Update and Delete 
+
+	class Employee {
+		private int id;
+		private String name;
+		private float salary;
+
+		setter and getter 
+		constructor (empty and parameterized)
+		toString()
+
+		
+	}	
+
+
+
+	void passInfo(int id, String name, float salary,String desg){
+
+	}
+
+	passInfo(1,"Raj",12000);
+
+
+	void passInfoUsingObject(Employee emp) {
+
+
+	}
+
+	Employee emp = new Employee();
+	emp.setId(100);
+	emp.setName("Raj");
+	passInfoUsingObject(emp);
+
+	Employee emp1 = new Employee();
+	emp1.setId(101);
+	emp1.setName("Ravi");
+	emp1.setSalary(12000);
+	passInfoUsingObject(emp);
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

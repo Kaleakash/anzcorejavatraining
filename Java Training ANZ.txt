@@ -1389,13 +1389,111 @@ delete query :	delete from employee where name ='Ravi'
 	Statement or PreparedStatement interfaces provide set of methods which help to store, retrieve,update and delete records from database. 
 
 
+			Java 
 
+
+	J2SE			J2EE				J2ME
+
+	JavaSE			JavaEE				JavaME
+
+
+	JSE			JEE				JME 
+
+	
+Java Standard Edition 		Java Enpterprise Edition 		Java Micro Edition 
+
+Basic Programming 
+OOPs
+Exception handling 
+Multithreading 
+packages 
+lang
+io
+util
+sql
+	awt
+	swing		GUI  ------->jdbc ---------------->oracle/mysql 
+
+	
+net 
+
+etc 
+
+Standalone or desktop application 
+
+
+				Web Application 
+
+			
+http://www.google.com ----->URL 
+
+
+			req(http/https)---------------------------->
+
+Client 									Server 	
+
+			<--------res(http/https)--------------------------
+
+									HTML 
+									CSS
+									JavaScript 
+						
+
+							JEE----> Servlet/JSP /EJB 
+
+							Asp.net /C#
+
+							Php 
+
+							Node JS : JavaScript 
+
+
+			Server :
+
+			Web Server 
+					tomcat 
+			Application Server 
+					Weblogic, jboss, Glashfish 
+						
+					WAS 
+					
+									
+
+
+			Web Service : 
+
+
+		req				req(java)	
+
+	Client 			HDFC 		XML/JSON	HSBC /SBI
+
+		res		JEE		res(.net)	Asp.net 
 
 
 	
+			1. SOAP Based 	: Simple Object Access Protocol 
+			Axis 2 tools 
+			Metro tools 
+					SOA 
+			2. RESTFull Web Service 
+
+			Jersey tool 
+			Spring MVC 	
+
+			get(), post(), put(), delete()
+
+				
+
+		XML 
+		DTD
+		XSD
+		XPath 
+		XSL
+		XSLT 
+		XQuery 
+
+
 	
-
-
 
 
 
